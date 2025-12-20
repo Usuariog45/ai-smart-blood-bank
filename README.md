@@ -6,7 +6,7 @@ scenarios.
 
 ---
 
-## 🚀 Features
+##  Features
 
 ### Public Features
 - Location-based blood bank discovery using geographic distance calculations
@@ -23,7 +23,7 @@ scenarios.
 
 ---
 
-## 🧠 AI-Assisted Decision Support
+##  AI-Assisted Decision Support
 - Deterministic donor prioritization based on:
   - Blood group compatibility
   - Geographic proximity

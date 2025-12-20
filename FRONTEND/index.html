@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Blood Bank System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<header class="header">
+  <h1>🩸 Smart Blood Bank System</h1>
+  <p>Every drop counts. Your contribution can save lives.</p>
+  <a href="admin.html" target="_blank">Admin</a>
+</header>
+
+<nav class="tabs">
+  <button onclick="openTab('find')">Find Blood</button>
+  <button onclick="openTab('donor')">Donate Blood</button>
+  <button onclick="openTab('camps')">Donation Camps</button>
+  <button onclick="openTab('analytics')">Analytics</button>
+  <button onclick="openTab('logs')">Inventory Logs</button>
+</nav>
+
+<main class="content">
+
+<h3>AI Emergency Donor Matching</h3>
+
+<select id="priority_group">
+  <option>O+</option><option>O-</option>
+  <option>A+</option><option>A-</option>
+  <option>B+</option><option>B-</option>
+  <option>AB+</option><option>AB-</option>
+</select>
+
+<input id="priority_lat" placeholder="Latitude">
+<input id="priority_lng" placeholder="Longitude">
+
+<button onclick="loadPriorityDonors()">Find Best Donors</button>
+
+<div id="priorityResult"></div>
+
+
+<section id="find" class="tab active">
+  <h2>Find Blood</h2>
+
+  <select id="blood_group">
+    <option>O+</option><option>O-</option>
+    <option>A+</option><option>A-</option>
+    <option>B+</option><option>B-</option>
+    <option>AB+</option><option>AB-</option>
+  </select>
+
+  <input id="lat" placeholder="Latitude" value="13.08" />
+  <input id="lng" placeholder="Longitude" value="80.27" />
+
+  <button onclick="searchBlood()">Search</button>
+
+  <div id="searchResult"></div>
+</section>
+
+<section id="donor" class="tab">
+  <h2>Register as Donor</h2>
+
+  <input id="donor_name" placeholder="Name" />
+  <input id="donor_phone" placeholder="Phone (10 digits)" />
+  <input id="donor_city" placeholder="City" />
+  <input id="donor_lat" placeholder="Latitude" />
+  <input id="donor_lng" placeholder="Longitude" />
+
+  <select id="donor_group">
+    <option>O+</option><option>O-</option>
+    <option>A+</option><option>A-</option>
+    <option>B+</option><option>B-</option>
+    <option>AB+</option><option>AB-</option>
+  </select>
+
+  <button onclick="registerDonor()">Register</button>
+  <p id="donorMsg"></p>
+</section>
+
+
+<section id="camps" class="tab">
+  <h2>Upcoming Donation Camps</h2>
+  <button onclick="loadCamps()">Load Camps</button>
+  <table id="campTable" class="hidden"><tbody></tbody></table>
+</section>
+
+<section id="analytics" class="tab">
+  <h2>Inventory Analytics</h2>
+  <button onclick="loadAnalytics()">Inventory Summary</button>
+  <button onclick="loadLowStock()">Low Stock</button>
+  <table id="analyticsTable" class="hidden"><tbody></tbody></table>
+</section>
+
+<section id="logs" class="tab">
+  <h2>Inventory Logs</h2>
+  <button onclick="loadLogs()">View Logs</button>
+  <table id="logsTable" class="hidden"><tbody></tbody></table>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

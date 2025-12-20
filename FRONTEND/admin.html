@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Dashboard | Smart Blood Bank</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+
+<header class="header">
+  <h1>🛠 Admin Dashboard</h1>
+  <p>Monitor & verify blood bank operations</p>
+</header>
+
+<!-- LOGIN -->
+<section id="loginBox">
+  <h2>🔐 Admin Login</h2>
+  <input id="adminUser" placeholder="Username" />
+  <input id="adminPass" type="password" placeholder="Password" />
+  <button id="loginBtn">Login</button>
+  <p id="loginError" style="color:red;"></p>
+</section>
+
+<!-- ADMIN PANEL -->
+<main id="adminPanel" style="display:none">
+
+  <nav class="tabs">
+    <button onclick="showTab('banks')">Blood Banks</button>
+    <button onclick="showTab('inventory')">Inventory</button>
+    <button onclick="showTab('camps')">Donation Camps</button>
+    <button onclick="showTab('logs')">Inventory Logs</button>
+  </nav>
+
+  <section id="banks" class="tab active">
+    <h2>🏥 Blood Banks</h2>
+    <table id="banksTable"></table>
+  </section>
+
+  <section id="inventory" class="tab">
+    <h2>🧪 Blood Inventory</h2>
+    <table id="inventoryTable"></table>
+  </section>
+
+  <section id="camps" class="tab">
+    <h2>📅 Donation Camps</h2>
+    <table id="campsTable"></table>
+  </section>
+
+  <section id="logs" class="tab">
+    <h2>📜 Inventory Logs</h2>
+    <table id="logsTable"></table>
+  </section>
+
+</main>
+
+<script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f7fb;
+}
+
+.header {
+  background: #c62828;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background: white;
+}
+
+.tabs button {
+  font-size: 18px;
+  padding: 10px 25px;
+  border: none;
+  background: #e0e0e0;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.tabs button:hover {
+  background: #c62828;
+  color: white;
+}
+
+.content {
+  padding: 40px;
+}
+
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+}
+
+th, td {
+  padding: 14px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  text-align: center;
+}
+
+th {
+  background: #f2f2f2;
+}

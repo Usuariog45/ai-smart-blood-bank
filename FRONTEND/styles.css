@@ -1,0 +1,138 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fa;
+}
+
+.header {
+  background: #9b2e2e;
+  color: white;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.header h1 {
+  font-size: 13rem;
+}
+
+.header p {
+  font-size: 1.3rem;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: white;
+}
+
+.hero h2 {
+  font-size: 2.8rem;
+  color: #c62828;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.hero button {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  padding: 1rem 2.5rem;
+  background: #c62828;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2.5rem;
+}
+
+.tab-btn {
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  background: #a42d2d;
+  color: white;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 3rem;
+}
+
+.tab-section {
+  display: none;
+}
+
+.tab-section.active {
+  display: block;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  display: block;
+}
+
+input, select {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.6rem;
+  margin-top: 0.3rem;
+}
+
+.primary {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  background: #973333;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+}
+
+.table th {
+  background: #c62828;
+  color: white;
+  padding: 0.8rem;
+}
+
+.table td {
+  padding: 0.8rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+}

